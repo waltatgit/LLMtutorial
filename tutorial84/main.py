@@ -7,7 +7,7 @@ from langchain.tools.json.tool import JsonSpec
 from langchain_openai import ChatOpenAI
 
 
-with open(r"C:\Users\welcome\OneDrive\Documents\GitHub\LLMtutorial\tutorial84\sample.xml","r") as f1:
+with open(r"sample.xml","r") as f1:
     content=f1.read()
 text_content=str(BeautifulSoup(content,"lxml"))
 xml_dict=xmltodict.parse(text_content)

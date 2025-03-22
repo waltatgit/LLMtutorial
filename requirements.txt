@@ -1,0 +1,6 @@
+beautifulsoup4
+langchain
+xmltodict
+langchain-community
+langchain-openai
+lxml
